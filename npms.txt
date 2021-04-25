@@ -1,0 +1,7 @@
+Se usaron estos paquetes de node
+
+//express ayuda para poder crear el servidor de manera sencilla validando muchos casos y facilitando leer direcciones
+https://www.npmjs.com/package/express
+
+//cors facilita algunas opciones de express, apoyando en el get, post y demas
+https://www.npmjs.com/package/cors
