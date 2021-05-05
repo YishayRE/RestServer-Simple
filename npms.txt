@@ -5,3 +5,12 @@ https://www.npmjs.com/package/express
 
 //cors facilita algunas opciones de express, apoyando en el get, post y demas
 https://www.npmjs.com/package/cors
+
+//esto nos ayuda a manejar los modelos de mongoose y conectar la db a node
+https://www.npmjs.com/package/mongoose
+
+//Encriptacion de strings
+https://www.npmjs.com/package/bcryptjs
+
+//Nos ayuda a validar distintos tipos de datos para el post...
+https://www.npmjs.com/package/express-validator
