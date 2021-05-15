@@ -14,3 +14,6 @@ https://www.npmjs.com/package/bcryptjs
 
 //Nos ayuda a validar distintos tipos de datos para el post...
 https://www.npmjs.com/package/express-validator
+
+//nos permite usar los JWT
+https://www.npmjs.com/package/jsonwebtoken

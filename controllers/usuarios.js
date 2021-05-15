@@ -58,15 +58,18 @@ const usuariosPost = async(req, res = response) => {
 
 const usuariosDelete = async(req, res = response) => {
 	const {id} = req.params;
-
 	//Borrado de un usuario permanentemente
 	//const usuario = await Usuario.findByIdAndDelete(id);
 
 	//Desaparecer un usuario
-	usuario = await Usuario.findByIdAndUpdate(id,{estado: false});
+	const usuario = await Usuario.findByIdAndUpdate(id,{estado: false});
+
+	const usuarioAutentificado = req.usuario;
 
 	res.json({
-			msg: `El usuario ${id} fue eliminado :(`
+			msg: `El usuario ${id} fue eliminado :(`,
+			usuario,
+			usuarioAutentificado
 		}
 	);
 }
